@@ -12,7 +12,7 @@ def pdf_combiner(pdf_list):
         print(f'Merging: {pdf}')
         merger.append(pdf)
 
-    merger.write('superpdf.pdf')
+    merger.write('super.pdf')
 
 
 if __name__ == "__main__":
